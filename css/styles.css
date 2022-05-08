@@ -1,0 +1,279 @@
+html {
+    font-size: 16px;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+
+/**************************/
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    height: 170%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+.column-40 {
+    width: 40%;
+    float: left;
+}
+
+
+/* Otras clases */
+
+#header {
+    /* propiedad que permite alterar la altura */
+    height: 100vh;
+    background-image: url("../img/istockphoto-1072907054-170667a.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#header2 {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/fondo-de-papel-del-cuaderno-57514917.jpg);
+    color: black;
+}
+
+#header3 {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/Screenshot_1.png);
+}
+
+#header4 {
+    height: 30vh;
+    margin: 0;
+}
+
+#header5 {
+    height: 20vh;
+    margin: 0;
+}
+
+#header6 {
+    text-align: center;
+    align-items: center;
+    background-image: url(../img/abstract-blue-background-with-sunbeams-1479560.jpg);
+}
+
+#header7 {
+    text-align: right;
+    align-items: right;
+    padding-right: 60px;
+    background-image: url(../img/pngtree-background-abstract-stripes-curved-in-green-and-white-image_374909.jpg);
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#lenguajes {
+    font-family: 'Roboto Mono', monospace;
+    padding-right: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.fondo-texto {
+    background-color: rgba(0, 0, 0, 0.556);
+    padding: 20px;
+    padding-left: 100px;
+    border-radius: 28px;
+}
+
+.fondo-texto2 {
+    background-color: rgba(0, 0, 0, 0.852);
+}
+
+.fondo-texto3 {
+    background-color: black;
+    background-image: url(../img/52714.jpg);
+    width: auto;
+    color: white;
+}
+
+.img1 {
+    width: 100%;
+    margin: 0;
+}
+
+.txt1 {
+    color: white;
+    padding-left: 2px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.txt2 {
+    color: white;
+    padding-left: 11px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.txt3 {
+    padding-left: 30px;
+    font-size: 29px;
+}
+
+.txt4 {
+    padding-left: 40px;
+}
+
+.txt5 {
+    padding-left: 105px;
+    font-size: 15px;
+}
+
+.txt6 {
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.contenidor {
+    width: 100%;
+    padding-left: 40px;
+}
+
+.contenidor2 {
+    width: 100%;
+}
+
+.alinear-txt {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.inglish {
+    text-align: right;
+    padding-left: 400px;
+    padding-bottom: 700px;
+}
+
+.pdf {
+    padding-left: 100px;
+    padding-bottom: 700px;
+}
+
+.pding {
+    padding-right: 20px;
+}
+
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2 {
+        width: 100%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+}
